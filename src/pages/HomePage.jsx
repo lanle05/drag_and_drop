@@ -8,11 +8,11 @@ import { arrayMoveImmutable } from 'array-move';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-import pinkSkyImage from '../assets/pink_sky.jpg';
-import greenHeartsImage from "../assets/green_hearts.jpg";
-import brownHeartsImage from '../assets/brown_hearts.jpg';
-import pinkHeartsImage from '../assets/pink_hearts.jpg';
-import yellowSkyImage from '../assets/yellow_sky.jpg';
+import pinkSkyImage from '../assets/pink_sky.jpeg';
+import greenHeartsImage from '../assets/green_hearts.jpeg';
+import brownHeartsImage from '../assets/brown_hearts.jpeg';
+import pinkHeartsImage from '../assets/pink_hearts.jpeg';
+import yellowSkyImage from '../assets/yellow_sky.jpeg';
 
 export async function loader() {
   const user = auth.currentUser;
